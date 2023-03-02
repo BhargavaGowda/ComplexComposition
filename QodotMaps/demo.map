@@ -1,0 +1,125 @@
+// Game: Qodot
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"_tb_textures" "textures/trenchbroom"
+"_tb_mod" "trenchbroom"
+// brush 0
+{
+( -640 144 -32 ) ( -640 145 -32 ) ( -640 144 -31 ) trenchbroom/FLOOR_1A 0 -16 0 1 1
+( -64 -640 -32 ) ( -64 -640 -31 ) ( -63 -640 -32 ) trenchbroom/FLOOR_1A 0 -16 0 1 1
+( -64 144 -48 ) ( -63 144 -48 ) ( -64 145 -48 ) trenchbroom/FLOOR_1A 0 0 0 1 1
+( 64 272 -16 ) ( 64 273 -16 ) ( 65 272 -16 ) trenchbroom/FLOOR_1A 0 0 0 1 1
+( 64 640 0 ) ( 65 640 0 ) ( 64 640 1 ) trenchbroom/FLOOR_1A 0 -16 0 1 1
+( 640 272 0 ) ( 640 272 1 ) ( 640 273 0 ) trenchbroom/FLOOR_1A 0 -16 0 1 1
+}
+// brush 1
+{
+( -48 -32 -16 ) ( -48 -31 -16 ) ( -48 -32 -15 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+( -32 -32 -16 ) ( -32 -32 -15 ) ( -31 -32 -16 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+( -32 -32 -16 ) ( -31 -32 -16 ) ( -32 -31 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 32 48 0 ) ( 32 49 0 ) ( 33 48 0 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 32 32 0 ) ( 33 32 0 ) ( 32 32 1 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+( 48 48 0 ) ( 48 48 1 ) ( 48 49 0 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+}
+// brush 2
+{
+( -16 0 0 ) ( -16 1 0 ) ( -16 0 1 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+( -16 -16 0 ) ( -16 -16 1 ) ( -15 -16 0 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+( -16 0 0 ) ( -15 0 0 ) ( -16 1 0 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 16 32 32 ) ( 16 33 32 ) ( 17 32 32 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 16 16 16 ) ( 17 16 16 ) ( 16 16 17 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+( 16 32 16 ) ( 16 32 17 ) ( 16 33 16 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
+}
+// brush 3
+{
+( -64 -16 32 ) ( -64 -15 32 ) ( -64 -16 33 ) trenchbroom/TableTop 0 -32 0 1 1
+( -16 -64 32 ) ( -16 -64 33 ) ( -15 -64 32 ) trenchbroom/TableTop 0 -32 0 1 1
+( -16 -16 32 ) ( -15 -16 32 ) ( -16 -15 32 ) trenchbroom/TableTop 0 0 0 1 1
+( 16 32 48 ) ( 16 33 48 ) ( 17 32 48 ) trenchbroom/TableTop 0 0 0 1 1
+( 16 64 48 ) ( 17 64 48 ) ( 16 64 49 ) trenchbroom/TableTop 0 -32 0 1 1
+( 64 32 48 ) ( 64 32 49 ) ( 64 33 48 ) trenchbroom/TableTop 0 -32 0 1 1
+}
+// brush 4
+{
+( 576 -640 -16 ) ( 576 -639 -16 ) ( 576 -640 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( 576 -640 -16 ) ( 576 -640 -15 ) ( 577 -640 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( 576 -640 -16 ) ( 577 -640 -16 ) ( 576 -639 -16 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( 640 -576 256 ) ( 640 -575 256 ) ( 641 -576 256 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( 640 -576 48 ) ( 641 -576 48 ) ( 640 -576 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( 640 -576 48 ) ( 640 -576 49 ) ( 640 -575 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+}
+// brush 5
+{
+( -640 -640 -16 ) ( -640 -639 -16 ) ( -640 -640 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( -640 -640 -16 ) ( -640 -640 -15 ) ( -639 -640 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( -640 -640 -16 ) ( -639 -640 -16 ) ( -640 -639 -16 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( -576 -576 256 ) ( -576 -575 256 ) ( -575 -576 256 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( -576 -576 48 ) ( -575 -576 48 ) ( -576 -576 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( -576 -576 48 ) ( -576 -576 49 ) ( -576 -575 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+}
+// brush 6
+{
+( -640 576 -16 ) ( -640 577 -16 ) ( -640 576 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( -640 576 -16 ) ( -640 576 -15 ) ( -639 576 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( -640 576 -16 ) ( -639 576 -16 ) ( -640 577 -16 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( -576 640 256 ) ( -576 641 256 ) ( -575 640 256 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( -576 640 48 ) ( -575 640 48 ) ( -576 640 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( -576 640 48 ) ( -576 640 49 ) ( -576 641 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+}
+// brush 7
+{
+( 576 576 -16 ) ( 576 577 -16 ) ( 576 576 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( 576 576 -16 ) ( 576 576 -15 ) ( 577 576 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( 576 576 -16 ) ( 577 576 -16 ) ( 576 577 -16 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( 640 640 256 ) ( 640 641 256 ) ( 641 640 256 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
+( 640 640 48 ) ( 641 640 48 ) ( 640 640 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+( 640 640 48 ) ( 640 640 49 ) ( 640 641 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
+}
+// brush 8
+{
+( 640 -640 -48 ) ( 640 -639 -48 ) ( 640 -640 -47 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 640 -640 -48 ) ( 640 -640 -47 ) ( 641 -640 -48 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 640 -640 -48 ) ( 641 -640 -48 ) ( 640 -639 -48 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 656 -576 256 ) ( 656 -575 256 ) ( 657 -576 256 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 656 640 -16 ) ( 657 640 -16 ) ( 656 640 -15 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 672 -576 -16 ) ( 672 -576 -15 ) ( 672 -575 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+}
+// brush 9
+{
+( -672 -640 -48 ) ( -672 -639 -48 ) ( -672 -640 -47 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( -672 -640 -48 ) ( -672 -640 -47 ) ( -671 -640 -48 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+( -672 -640 -48 ) ( -671 -640 -48 ) ( -672 -639 -48 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+( -656 -576 256 ) ( -656 -575 256 ) ( -655 -576 256 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+( -656 640 -16 ) ( -655 640 -16 ) ( -656 640 -15 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+( -640 -576 -16 ) ( -640 -576 -15 ) ( -640 -575 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+}
+// brush 10
+{
+( -672 -656 -32 ) ( -672 -655 -32 ) ( -672 -656 -31 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( -672 -672 -32 ) ( -672 -672 -31 ) ( -671 -672 -32 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( -672 -656 -48 ) ( -671 -656 -48 ) ( -672 -655 -48 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( -608 -640 256 ) ( -608 -639 256 ) ( -607 -640 256 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( -608 -640 -16 ) ( -607 -640 -16 ) ( -608 -640 -15 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( 672 -640 -16 ) ( 672 -640 -15 ) ( 672 -639 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+}
+// brush 11
+{
+( -672 656 -32 ) ( -672 657 -32 ) ( -672 656 -31 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( -672 640 -32 ) ( -672 640 -31 ) ( -671 640 -32 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( -672 656 -48 ) ( -671 656 -48 ) ( -672 657 -48 ) trenchbroom/CONCRETE_3A 32 -32 0 1 1
+( -608 672 256 ) ( -608 673 256 ) ( -607 672 256 ) trenchbroom/CONCRETE_3A 32 -32 0 1 1
+( -608 672 -16 ) ( -607 672 -16 ) ( -608 672 -15 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+( 672 672 -16 ) ( 672 672 -15 ) ( 672 673 -16 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
+}
+// brush 12
+{
+( -672 608 256 ) ( -672 609 256 ) ( -672 608 257 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+( -672 -672 256 ) ( -672 -672 257 ) ( -671 -672 256 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( -672 608 256 ) ( -671 608 256 ) ( -672 609 256 ) trenchbroom/CONCRETE_3A 0 32 0 1 1
+( -640 672 288 ) ( -640 673 288 ) ( -639 672 288 ) trenchbroom/CONCRETE_3A 0 32 0 1 1
+( -640 672 272 ) ( -639 672 272 ) ( -640 672 273 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
+( 672 672 272 ) ( 672 672 273 ) ( 672 673 272 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+}
+}
