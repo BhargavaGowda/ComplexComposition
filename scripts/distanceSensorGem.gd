@@ -13,7 +13,7 @@ func _physics_process(delta):
 		var rawDist = global_translation.distance_to(result.position)
 		dist += 0.5*(rawDist-dist)
 		
-
+	dist = min(dist,maxDist)
 	var col = Color.from_hsv(200/360.0,1,(maxDist-dist)/maxDist)
 	get_active_material(0).set_albedo(col)
 

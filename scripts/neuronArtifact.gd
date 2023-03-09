@@ -20,13 +20,15 @@ var otherArtifact
 
 #complex6
 #complex7
+#complex9 - *
+#complex10 - *
 
 
 func initialize():
 	body = get_node("body")
 	mat = body.get_active_material(0).duplicate()
 	body.set_surface_material(0,mat)
-	rng.seed=hash("complex9")
+	rng.seed=hash("complex10")
 	for i in range(numNeurons):
 		neurons.append(Neuron.new())
 		neurons[i].eta = eta

@@ -252,7 +252,7 @@ transform = Transform( 0.876651, -1.67392e-08, 0.481126, -0.300329, 0.781248, 0.
 script = ExtResource( 9 )
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 0.68127, 0.732032, 0, -0.732032, 0.68127, 0, 15.4788, 6.75261 )
+transform = Transform( 1, 0, 0, 0, 0.611941, 0.790903, 0, -0.790903, 0.611941, 0, 15.4788, 6.94566 )
 
 [node name="neuronArtifact1" type="KinematicBody" parent="." groups=["simElements"]]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.33516, -3.75926 )
@@ -372,6 +372,68 @@ material/0 = SubResource( 38 )
 script = ExtResource( 15 )
 
 [node name="s2" type="MeshInstance" parent="neuronArtifact2"]
+transform = Transform( 0.173205, 0.1, -4.37114e-09, 0, -8.74228e-09, -0.2, -0.1, 0.173205, -7.57103e-09, 0.4, 0.267, 0.724 )
+mesh = ExtResource( 14 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 38 )
+script = ExtResource( 15 )
+
+[node name="neuronArtifact3" type="KinematicBody" parent="." groups=["simElements"]]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4.76132, 1.33516, -10.4593 )
+script = ExtResource( 10 )
+
+[node name="body" type="MeshInstance" parent="neuronArtifact3"]
+transform = Transform( 0.93358, 0, 0.358368, 0, 1, 0, -0.358368, 0, 0.93358, 0, 0, 0 )
+mesh = ExtResource( 1 )
+skeleton = NodePath("../..")
+material/0 = ExtResource( 8 )
+
+[node name="CollisionShape" type="CollisionShape" parent="neuronArtifact3"]
+shape = SubResource( 21 )
+
+[node name="n1" type="MeshInstance" parent="neuronArtifact3" groups=["simElements"]]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, -0.35, 1, 0.9 )
+mesh = ExtResource( 11 )
+skeleton = NodePath("../body")
+material/0 = SubResource( 20 )
+script = ExtResource( 12 )
+
+[node name="n2" type="MeshInstance" parent="neuronArtifact3" groups=["simElements"]]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0.35, 1, 0.9 )
+mesh = ExtResource( 11 )
+skeleton = NodePath("../body")
+material/0 = SubResource( 20 )
+script = ExtResource( 12 )
+
+[node name="n3" type="MeshInstance" parent="neuronArtifact3" groups=["simElements"]]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 1, 0.5 )
+mesh = ExtResource( 11 )
+skeleton = NodePath("../body")
+material/0 = SubResource( 20 )
+script = ExtResource( 12 )
+
+[node name="n4" type="MeshInstance" parent="neuronArtifact3" groups=["simElements"]]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 1, 0.1 )
+mesh = ExtResource( 11 )
+skeleton = NodePath("../body")
+material/0 = SubResource( 20 )
+script = ExtResource( 12 )
+
+[node name="n5" type="MeshInstance" parent="neuronArtifact3" groups=["simElements"]]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 1, -0.5 )
+mesh = ExtResource( 11 )
+skeleton = NodePath("../body")
+material/0 = SubResource( 20 )
+script = ExtResource( 12 )
+
+[node name="s1" type="MeshInstance" parent="neuronArtifact3"]
+transform = Transform( 0.173205, -0.1, 4.37114e-09, 0, -8.74228e-09, -0.2, 0.1, 0.173205, -7.57103e-09, -0.4, 0.267, 0.724 )
+mesh = ExtResource( 14 )
+skeleton = NodePath("../..")
+material/0 = SubResource( 38 )
+script = ExtResource( 15 )
+
+[node name="s2" type="MeshInstance" parent="neuronArtifact3"]
 transform = Transform( 0.173205, 0.1, -4.37114e-09, 0, -8.74228e-09, -0.2, -0.1, 0.173205, -7.57103e-09, 0.4, 0.267, 0.724 )
 mesh = ExtResource( 14 )
 skeleton = NodePath("../..")
