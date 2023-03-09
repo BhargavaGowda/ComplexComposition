@@ -5,7 +5,7 @@ var neuron
 var col = Color(0,0,0)
 var maxActivation = 1.0
 
-func initialize():
+func initNeuroGems():
 	set_surface_material(0,get_active_material(0).duplicate())
 	maxActivation=neuron.maxActivation
 	
