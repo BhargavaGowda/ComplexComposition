@@ -16,33 +16,6 @@
 }
 // brush 1
 {
-( -48 -32 -16 ) ( -48 -31 -16 ) ( -48 -32 -15 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-( -32 -32 -16 ) ( -32 -32 -15 ) ( -31 -32 -16 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-( -32 -32 -16 ) ( -31 -32 -16 ) ( -32 -31 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
-( 32 48 0 ) ( 32 49 0 ) ( 33 48 0 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
-( 32 32 0 ) ( 33 32 0 ) ( 32 32 1 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-( 48 48 0 ) ( 48 48 1 ) ( 48 49 0 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-}
-// brush 2
-{
-( -16 0 0 ) ( -16 1 0 ) ( -16 0 1 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-( -16 -16 0 ) ( -16 -16 1 ) ( -15 -16 0 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-( -16 0 0 ) ( -15 0 0 ) ( -16 1 0 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
-( 16 32 32 ) ( 16 33 32 ) ( 17 32 32 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
-( 16 16 16 ) ( 17 16 16 ) ( 16 16 17 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-( 16 32 16 ) ( 16 32 17 ) ( 16 33 16 ) trenchbroom/CONCRETE_3A 0 -32 0 1 1
-}
-// brush 3
-{
-( -64 -16 32 ) ( -64 -15 32 ) ( -64 -16 33 ) trenchbroom/TableTop 0 -32 0 1 1
-( -16 -64 32 ) ( -16 -64 33 ) ( -15 -64 32 ) trenchbroom/TableTop 0 -32 0 1 1
-( -16 -16 32 ) ( -15 -16 32 ) ( -16 -15 32 ) trenchbroom/TableTop 0 0 0 1 1
-( 16 32 48 ) ( 16 33 48 ) ( 17 32 48 ) trenchbroom/TableTop 0 0 0 1 1
-( 16 64 48 ) ( 17 64 48 ) ( 16 64 49 ) trenchbroom/TableTop 0 -32 0 1 1
-( 64 32 48 ) ( 64 32 49 ) ( 64 33 48 ) trenchbroom/TableTop 0 -32 0 1 1
-}
-// brush 4
-{
 ( 576 -640 -16 ) ( 576 -639 -16 ) ( 576 -640 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( 576 -640 -16 ) ( 576 -640 -15 ) ( 577 -640 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( 576 -640 -16 ) ( 577 -640 -16 ) ( 576 -639 -16 ) trenchbroom/SUPPORT_5A 0 0 0 1 1
@@ -50,7 +23,7 @@
 ( 640 -576 48 ) ( 641 -576 48 ) ( 640 -576 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( 640 -576 48 ) ( 640 -576 49 ) ( 640 -575 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 }
-// brush 5
+// brush 2
 {
 ( -640 -640 -16 ) ( -640 -639 -16 ) ( -640 -640 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( -640 -640 -16 ) ( -640 -640 -15 ) ( -639 -640 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
@@ -59,7 +32,7 @@
 ( -576 -576 48 ) ( -575 -576 48 ) ( -576 -576 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( -576 -576 48 ) ( -576 -576 49 ) ( -576 -575 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 }
-// brush 6
+// brush 3
 {
 ( -640 576 -16 ) ( -640 577 -16 ) ( -640 576 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( -640 576 -16 ) ( -640 576 -15 ) ( -639 576 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
@@ -68,7 +41,7 @@
 ( -576 640 48 ) ( -575 640 48 ) ( -576 640 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( -576 640 48 ) ( -576 640 49 ) ( -576 641 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 }
-// brush 7
+// brush 4
 {
 ( 576 576 -16 ) ( 576 577 -16 ) ( 576 576 -15 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( 576 576 -16 ) ( 576 576 -15 ) ( 577 576 -16 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
@@ -77,7 +50,7 @@
 ( 640 640 48 ) ( 641 640 48 ) ( 640 640 49 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 ( 640 640 48 ) ( 640 640 49 ) ( 640 641 48 ) trenchbroom/SUPPORT_5A 0 -16 0 1 1
 }
-// brush 8
+// brush 5
 {
 ( 640 -640 -48 ) ( 640 -639 -48 ) ( 640 -640 -47 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 ( 640 -640 -48 ) ( 640 -640 -47 ) ( 641 -640 -48 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
@@ -86,7 +59,7 @@
 ( 656 640 -16 ) ( 657 640 -16 ) ( 656 640 -15 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 ( 672 -576 -16 ) ( 672 -576 -15 ) ( 672 -575 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 }
-// brush 9
+// brush 6
 {
 ( -672 -640 -48 ) ( -672 -639 -48 ) ( -672 -640 -47 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 ( -672 -640 -48 ) ( -672 -640 -47 ) ( -671 -640 -48 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
@@ -95,7 +68,7 @@
 ( -656 640 -16 ) ( -655 640 -16 ) ( -656 640 -15 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
 ( -640 -576 -16 ) ( -640 -576 -15 ) ( -640 -575 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 }
-// brush 10
+// brush 7
 {
 ( -672 -656 -32 ) ( -672 -655 -32 ) ( -672 -656 -31 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 ( -672 -672 -32 ) ( -672 -672 -31 ) ( -671 -672 -32 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
@@ -104,7 +77,7 @@
 ( -608 -640 -16 ) ( -607 -640 -16 ) ( -608 -640 -15 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
 ( 672 -640 -16 ) ( 672 -640 -15 ) ( 672 -639 -16 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 }
-// brush 11
+// brush 8
 {
 ( -672 656 -32 ) ( -672 657 -32 ) ( -672 656 -31 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
 ( -672 640 -32 ) ( -672 640 -31 ) ( -671 640 -32 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
@@ -113,7 +86,7 @@
 ( -608 672 -16 ) ( -607 672 -16 ) ( -608 672 -15 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
 ( 672 672 -16 ) ( 672 672 -15 ) ( 672 673 -16 ) trenchbroom/CONCRETE_3A 32 0 0 1 1
 }
-// brush 12
+// brush 9
 {
 ( -672 608 256 ) ( -672 609 256 ) ( -672 608 257 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
 ( -672 -672 256 ) ( -672 -672 257 ) ( -671 -672 256 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
@@ -121,5 +94,113 @@
 ( -640 672 288 ) ( -640 673 288 ) ( -639 672 288 ) trenchbroom/CONCRETE_3A 0 32 0 1 1
 ( -640 672 272 ) ( -639 672 272 ) ( -640 672 273 ) trenchbroom/CONCRETE_3A 0 0 0 1 1
 ( 672 672 272 ) ( 672 672 273 ) ( 672 673 272 ) trenchbroom/CONCRETE_3A -32 0 0 1 1
+}
+// brush 10
+{
+( 48 -128 -16 ) ( 48 -127 -16 ) ( 48 -128 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 48 -288 -16 ) ( 48 -288 -15 ) ( 49 -288 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 48 -128 -16 ) ( 49 -128 -16 ) ( 48 -127 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 64 96 ) ( 64 65 96 ) ( 65 64 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 96 0 ) ( 65 96 0 ) ( 64 96 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 64 0 ) ( 64 64 1 ) ( 64 65 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 11
+{
+( -32 96 -16 ) ( -32 97 -16 ) ( -32 96 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -32 96 -16 ) ( -32 96 -15 ) ( -31 96 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -32 96 -16 ) ( -31 96 -16 ) ( -32 97 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 112 96 ) ( 64 113 96 ) ( 65 112 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 112 0 ) ( 65 112 0 ) ( 64 112 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 112 0 ) ( 64 112 1 ) ( 64 113 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 12
+{
+( -320 48 -16 ) ( -320 49 -16 ) ( -320 48 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -320 16 -16 ) ( -320 16 -15 ) ( -319 16 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -320 48 -16 ) ( -319 48 -16 ) ( -320 49 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 176 96 ) ( -304 177 96 ) ( -303 176 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 640 0 ) ( -303 640 0 ) ( -304 640 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 176 0 ) ( -304 176 1 ) ( -304 177 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 13
+{
+( -384 -176 -16 ) ( -384 -175 -16 ) ( -384 -176 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -368 -176 -16 ) ( -368 -176 -15 ) ( -367 -176 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -368 -176 -16 ) ( -367 -176 -16 ) ( -368 -175 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -192 -160 96 ) ( -192 -159 96 ) ( -191 -160 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -192 -160 0 ) ( -191 -160 0 ) ( -192 -160 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -192 -160 0 ) ( -192 -160 1 ) ( -192 -159 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 14
+{
+( -192 -384 -16 ) ( -192 -383 -16 ) ( -192 -384 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -192 -384 -16 ) ( -192 -384 -15 ) ( -191 -384 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -192 -384 -16 ) ( -191 -384 -16 ) ( -192 -383 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -176 -160 96 ) ( -176 -159 96 ) ( -175 -160 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -176 -160 0 ) ( -175 -160 0 ) ( -176 -160 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -176 -160 0 ) ( -176 -160 1 ) ( -176 -159 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 15
+{
+( -304 240 -16 ) ( -304 241 -16 ) ( -304 240 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 240 -16 ) ( -304 240 -15 ) ( -303 240 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 240 -16 ) ( -303 240 -16 ) ( -304 241 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 240 256 96 ) ( 240 257 96 ) ( 241 256 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 240 256 0 ) ( 241 256 0 ) ( 240 256 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 240 256 0 ) ( 240 256 1 ) ( 240 257 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 16
+{
+( 64 -64 -16 ) ( 64 -63 -16 ) ( 64 -64 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -64 -16 ) ( 64 -64 -15 ) ( 65 -64 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -64 -16 ) ( 65 -64 -16 ) ( 64 -63 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 384 -48 96 ) ( 384 -47 96 ) ( 385 -48 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 384 -48 0 ) ( 385 -48 0 ) ( 384 -48 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 384 -48 0 ) ( 384 -48 1 ) ( 384 -47 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 17
+{
+( 464 -64 -16 ) ( 464 -63 -16 ) ( 464 -64 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 464 -64 -16 ) ( 464 -64 -15 ) ( 465 -64 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 464 -64 -16 ) ( 465 -64 -16 ) ( 464 -63 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 640 -48 96 ) ( 640 -47 96 ) ( 641 -48 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 640 -48 0 ) ( 641 -48 0 ) ( 640 -48 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 640 -48 0 ) ( 640 -48 1 ) ( 640 -47 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 18
+{
+( -176 -384 -16 ) ( -176 -383 -16 ) ( -176 -384 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -176 -384 -16 ) ( -176 -384 -15 ) ( -175 -384 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -176 -384 -16 ) ( -175 -384 -16 ) ( -176 -383 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -368 96 ) ( 64 -367 96 ) ( 65 -368 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -368 0 ) ( 65 -368 0 ) ( 64 -368 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -368 0 ) ( 64 -368 1 ) ( 64 -367 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 19
+{
+( 48 -640 -16 ) ( 48 -639 -16 ) ( 48 -640 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 48 -640 -16 ) ( 48 -640 -15 ) ( 49 -640 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 48 -640 -16 ) ( 49 -640 -16 ) ( 48 -639 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -384 96 ) ( 64 -383 96 ) ( 65 -384 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -384 0 ) ( 65 -384 0 ) ( 64 -384 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( 64 -384 0 ) ( 64 -384 1 ) ( 64 -383 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 20
+{
+( -640 0 -16 ) ( -640 1 -16 ) ( -640 0 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -640 0 -16 ) ( -640 0 -15 ) ( -639 0 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -640 0 -16 ) ( -639 0 -16 ) ( -640 1 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -496 16 96 ) ( -496 17 96 ) ( -495 16 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -496 16 0 ) ( -495 16 0 ) ( -496 16 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -512 16 0 ) ( -512 16 1 ) ( -512 17 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
+}
+// brush 21
+{
+( -384 0 -16 ) ( -384 1 -16 ) ( -384 0 -15 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -400 0 -16 ) ( -400 0 -15 ) ( -399 0 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -400 0 -16 ) ( -399 0 -16 ) ( -400 1 -16 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 16 96 ) ( -304 17 96 ) ( -303 16 96 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 16 0 ) ( -303 16 0 ) ( -304 16 1 ) trenchbroom/BRICK_1A 0 0 0 1 1
+( -304 16 0 ) ( -304 16 1 ) ( -304 17 0 ) trenchbroom/BRICK_1A 0 0 0 1 1
 }
 }

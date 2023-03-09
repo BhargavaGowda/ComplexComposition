@@ -3,6 +3,7 @@ extends Object
 
 var a = 0.0
 var input = 0.0
+var ctlp = 0.5
 var cached_a =0.0
 var inps = []
 var inpWeights = []
@@ -19,6 +20,7 @@ func forward():
 		for i in range(len(inps)):
 #			print(i)
 			cached_a+=inps[i].a*inpWeights[i]
+
 		
 	
 	if cached_a < 0:
